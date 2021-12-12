@@ -9,6 +9,7 @@ import NameForm from "./NameForm";
 import LoadingSpinner from "./LoadingSpinner";
 
 //init web3
+const tokenAddress = "0x722cF3Bc003f5B19e5a36dB1099B37399E4eD917";
 
 function App() {
   const [refresh, setrefresh] = useState(0);
@@ -63,7 +64,7 @@ function App() {
 
     const c = new web3.eth.Contract(
       bcvContract.abi,
-      "0x722cF3Bc003f5B19e5a36dB1099B37399E4eD917"
+      tokenAddress
     );
 
     if (!c) {
@@ -150,6 +151,7 @@ function App() {
       <div align="center">
         <p/><p/>
         <h3> Current smart contract balance {balance / 10 ** 18 } ONE </h3>
+        <h5> Add BCV token to metamask {tokenAddress} </h5>
       </div>
     </div>
   );
