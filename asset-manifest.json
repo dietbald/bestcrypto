@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bestcrypto/static/css/main.a617e044.chunk.css",
-    "main.js": "/bestcrypto/static/js/main.c00d98ac.chunk.js",
-    "main.js.map": "/bestcrypto/static/js/main.c00d98ac.chunk.js.map",
+    "main.js": "/bestcrypto/static/js/main.34e7a869.chunk.js",
+    "main.js.map": "/bestcrypto/static/js/main.34e7a869.chunk.js.map",
     "runtime-main.js": "/bestcrypto/static/js/runtime-main.3d6abdf6.js",
     "runtime-main.js.map": "/bestcrypto/static/js/runtime-main.3d6abdf6.js.map",
     "static/css/2.0b7b947e.chunk.css": "/bestcrypto/static/css/2.0b7b947e.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.0b7b947e.chunk.css",
     "static/js/2.4b9523ca.chunk.js",
     "static/css/main.a617e044.chunk.css",
-    "static/js/main.c00d98ac.chunk.js"
+    "static/js/main.34e7a869.chunk.js"
   ]
 }
